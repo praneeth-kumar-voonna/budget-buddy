@@ -1,0 +1,86 @@
+/* src/pages/Auth.css */
+
+.auth-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.auth-container button {
+  padding: 0.75rem;
+  background-color: #3498db;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #2980b9;
+}
+
+.auth-container p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.auth-container a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #2c3e50;
+}
+
+.auth-link {
+  color: #3498db;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
